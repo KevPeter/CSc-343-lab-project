@@ -12,7 +12,7 @@ end FSM;
 architecture Behavioral of FSM is
 
 signal state: control_state := S0;
-signal exit_program: std_logic_vector (31 downto 0) := "001101 00010 00000 0000000000001010";
+signal exit_program: std_logic_vector (31 downto 0) := "00100100010000000000000000001010";
 
 begin
 		-- ** missing exit instruction check
